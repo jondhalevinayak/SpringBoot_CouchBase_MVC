@@ -11,11 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 public class SpringBootCouchBaseMvcApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SpringBootCouchBaseMvcApplication.class);
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCouchBaseMvcApplication.class, args);
 	}
